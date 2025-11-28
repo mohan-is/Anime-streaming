@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+from pathlib import Path
+
+STATIC_ROOT = Path(BASE_DIR) / "staticfiles"
+
+
 
 # Application definition
 
